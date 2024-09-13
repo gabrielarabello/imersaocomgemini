@@ -13,19 +13,12 @@
   src: url('fontes/Games-Italic.ttf') format('truetype') ;
 }
 
-@media (max-width: 480px) {
-  font-size: 1.8rem;
-  letter-spacing: 0.1rem;
-}
-
-@media (max-width: 768px) {
   h1 {
     font-size: 2rem;
     /* Tamanho da fonte em telas menores */
     letter-spacing: 0.2rem;
     /* Espaçamento entre letras em telas menores */
   }
-}
 
 /* Estiliza o corpo da página */
 body {
@@ -219,4 +212,17 @@ footer {
   /* Alinha ao fundo da página */
   font-size: 1rem;
   /* Tamanho da fonte */
+}
+
+/*Estilos para dispositivos móveis menores (celulares, até 480px de largura) */
+@media (max-width:480px) {
+}
+/*Estilos para tablets (481px a 768px de largura) */
+@media (maxi-width:768px) {
+}
+/*Estilos para notebooks e telas maiores (769px a 1024px de largura) */
+@media (min-width:769px) and (max-width:1024px) {
+}
+/*Estilos para telas grandes (acima de 1024px)*/ 
+@media (min-width:1025px){
 }
