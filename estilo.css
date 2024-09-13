@@ -5,13 +5,13 @@
 
 @font-face {
   font-family: 'coffe';
-  src: url('fontes/Coffee\ Soda.otf.otf')   format('opentype') ;
+  src: url('fontes/Coffee\ Soda.o1wetf.otf')   format('opentype') ;
 }
 
 /* Estiliza o corpo da página */
 body {
   font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
- background-image: url(imagens/fundo-do-site.png);  /* Cor de fundo da página */
+ background-image: url(imagens/248889.jpg);  /* Cor de fundo da página */
  background-position: center;
   display: flex; /* Usa Flexbox para layout */
   flex-direction: column; /* Alinha os itens na vertical */
