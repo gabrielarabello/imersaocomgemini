@@ -238,4 +238,30 @@ footer {
 @media (min-width: 1024px) {
   /* Para telas maiores que tablets */
   /* Estilos específicos para telas maiores */
+
+  /* ... (código existente) ... */
+
+@media (max-width: 768px) {
+  /* Para telas menores que tablets */
+  body {
+      padding: 1rem;
+  }
+  h1 {
+      font-size: 2rem;
+  }
+  section {
+      margin-bottom: 2rem;
+  }
+  section input, section button {
+      width: 100%;
+  }
+  .resultados-pesquisa {
+      width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Para telas maiores que tablets */
+  /* Estilos específicos para telas maiores */
+}
 }
