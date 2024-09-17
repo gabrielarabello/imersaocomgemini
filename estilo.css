@@ -40,10 +40,10 @@ h1 {
   font-family: 'Games', Helvetica, sans-serif;  /*Fonte externa*/
   font-size: 2.5rem;  /* Tamanho da fonte */
   color: rgb(24, 24, 24); /* Cor do texto */
-  text-shadow: 7px 1px 0 rgb(3, 248, 16);
+  text-shadow: 5px 1px 0 rgb(3, 248, 16);
   text-align: center; /* Alinha o texto ao centro */
   letter-spacing: 0.4rem; /* Espaçamento entre letras */
-  animation: fadeIn 3s ease-in-out;
+ animation: fadeIn 1s ease-in-out;
 }
 
 @keyframes fadeIn {
