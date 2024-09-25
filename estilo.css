@@ -175,14 +175,36 @@ footer p {
   h1 {
     font-size: 2rem;
   }
+
   section {
     margin-bottom: 2rem;
   }
+
   section input, section button {
     width: 100%;
   }
+
+  .item-resultado h2 {
+    font-size: 1.2rem;
+  }
+
+  section {
+    margin-bottom: 1.2rem;
+  }
+
   .resultados-pesquisa {
+    width: 90%;
+    height: auto;
+  }
+
+  .item-resultado {
     width: 100%;
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .item-resultado h2 {
+    font-size: 1.2rem;
   }
 }
 
