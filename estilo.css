@@ -107,13 +107,12 @@ section button:hover {
 *.resultados-pesquisa {
   padding: 19px;  /* Espaçamento interno */
   border-radius: 1.rem;
-  color: #ffffff;
+  color: #000000;
   width: 70rem; /* Largura máxima da caixa de resultados */
   height: 50vh;  /* Altura máxima da caixa de resultados */
   overflow-y: auto;  /* Adiciona rolagem vertical se necessário */
   margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
   border-radius: 1.2rem; /* Borda arredondada */ 
-  
 }
 
 /* Estiliza cada item de resultado */
@@ -130,7 +129,7 @@ section button:hover {
 /* Estiliza os títulos dentro dos itens de resultado */
 .item-resultado h2 {
   font-size: 2rem; /* Tamanho da fonte */
-  color: #fff; /* Cor do texto */
+  color: #ffffff; /* Cor do texto */
   text-align: center;
 }
 
