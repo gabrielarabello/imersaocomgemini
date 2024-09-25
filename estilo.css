@@ -39,8 +39,8 @@ body {
 h1 {
   font-family: 'Games', Helvetica, sans-serif;  /*Fonte externa*/
   font-size: 2.5rem;  /* Tamanho da fonte */
-  color: rgb(24, 24, 24); /* Cor do texto */
-  text-shadow: 5px 1px 0 rgb(3, 248, 16);
+  color: rgb(3, 248, 16);; /* Cor do texto */
+  text-shadow: 9px 2px black;
   text-align: center; /* Alinha o texto ao centro */
   letter-spacing: 0.4rem; /* Espaçamento entre letras */
  animation: fadeIn 1s ease-in-out;
@@ -106,15 +106,15 @@ section button:hover {
   background-color: #009900;  /* Muda a cor de fundo ao passar o mouse */
 }
 
-
 /* Estiliza a caixa de resultados da pesquisa */
 *.resultados-pesquisa {
-  width: 60rem; /* Largura máxima da caixa de resultados */
-  height: 46vh;  /* Altura máxima da caixa de resultados */
+  width: 70rem; /* Largura máxima da caixa de resultados */
+  height: 50vh;  /* Altura máxima da caixa de resultados */
   overflow-y: auto;  /* Adiciona rolagem vertical se necessário */
   margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
-  padding: 1rem;  /* Espaçamento interno */
-  border-radius: 1.5em; /* Borda arredondada */ 
+  padding: 19px;  /* Espaçamento interno */
+  border-radius: 1.2rem; /* Borda arredondada */ 
+  
 }
 
 /* Estiliza cada item de resultado */
