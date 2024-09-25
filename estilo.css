@@ -26,23 +26,20 @@ body {
   background-image: url(imagens/imagem2.JPG);
   background-size: cover;
   background-position: bottom;
-  flex-direction: column;
-  display: flex;
   display: grid;  /* Usa Flexbox para layout */
   place-items: center;
-  align-items: flex-end;  /* Centraliza os itens horizontalmente */
-  justify-content: center; /* Centraliza os itens verticalmente */
   height: 100vh;  /* Preenche a altura total da viewport */
 }
 
 /* Estiliza os títulos h1 */
 h1 {
   font-family: 'Games', Helvetica, sans-serif;  /*Fonte externa*/
-  font-size: 2.5rem;  /* Tamanho da fonte */
-  color: rgb(3, 248, 16);; /* Cor do texto */
-  text-shadow: 9px 2px black;
+  font-size: 3.5rem;  /* Tamanho da fonte */
+  color: rgb(0, 255, 0);; /* Cor do texto */
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7);
   text-align: center; /* Alinha o texto ao centro */
-  letter-spacing: 0.4rem; /* Espaçamento entre letras */
+  letter-spacing: 0.5rem; /* Espaçamento entre letras */
+  margin-top: 15px;
  animation: fadeIn 1s ease-in-out;
 }
 
@@ -69,10 +66,10 @@ section {
 
 /* Estiliza os inputs dentro das seções */
 section input {
-  width:30rem ;
+  padding: 1rem;
+  width: 30rem;
   border-bottom: 1px 2px green;
-  padding:1rem;
-  border-radius:1.5rem;
+  border-radius:5rem;
   margin-bottom:1rem;
   color:#000000;
   font-size:1rem;
@@ -83,17 +80,17 @@ section input {
 
 /* Estiliza os botões dentro das seções */
 section button {
-padding: 15px 10px;
-margin-top: 10px;
+padding: 20px 40px;
+margin-top: 20px;
 font-family: '2p', Helvetica, sans-serif;
-font-size: 1.0rem; /* Tamanho da fonte */
+font-size: 1.2rem; /* Tamanho da fonte */
 color: white; /* Cor do texto do botão */
 background-color: #00cc00; /* Cor de fundo do botão */
 border: none;  /* Remove a borda padrão */
-border-radius: 25px;
+border-radius: 15px;
 cursor: pointer; /* Muda o cursor para indicar que é clicável */
 animation: expand 1s infinite alternate;
-text-shadow: 1px 1px 3px #000000;
+text-shadow: 2px 2px 4px #000000;
 }
 
 @keyframes expand {
@@ -108,11 +105,13 @@ section button:hover {
 
 /* Estiliza a caixa de resultados da pesquisa */
 *.resultados-pesquisa {
+  padding: 19px;  /* Espaçamento interno */
+  border-radius: 1.rem;
+  color: #ffffff;
   width: 70rem; /* Largura máxima da caixa de resultados */
   height: 50vh;  /* Altura máxima da caixa de resultados */
   overflow-y: auto;  /* Adiciona rolagem vertical se necessário */
   margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
-  padding: 19px;  /* Espaçamento interno */
   border-radius: 1.2rem; /* Borda arredondada */ 
   
 }
@@ -122,21 +121,22 @@ section button:hover {
   background-color: #28a745;
   border-radius: 25px; /* Borda arredondada */
   padding: 1rem; /* Espaçamento interno */
-  margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+  margin-bottom: 1rem; 
   box-shadow: 1 1px 4px rgba(1, 1, 1, 0.219);  /* Sombra leve */
   width: 400px;
-  text-align: justify;
+  text-align: center;
 }
 
 /* Estiliza os títulos dentro dos itens de resultado */
 .item-resultado h2 {
-  font-size: 1.5em; /* Tamanho da fonte */
-  color: #252525; /* Cor do texto */
+  font-size: 2rem; /* Tamanho da fonte */
+  color: #fff; /* Cor do texto */
   text-align: center;
 }
 
 /* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
+  font-size: 1rem;
   text-decoration: none;  /* Remove o sublinhado padrão dos links */
   color: #ffffff; /* Cor do texto dos links */
   letter-spacing: 3px;
@@ -157,7 +157,7 @@ section button:hover {
 footer {
   background-color: rgba(0, 0, 0, 0.6); /* Cor de fundo do rodapé */
   color: white;  /* Cor do texto */
-  padding: 10px; /* Espaçamento interno */
+  padding: 20px; /* Espaçamento interno */
   font-size: 0.9em;
   position: fixed;  /* Posiciona o rodapé */
   width: 100%; /* Largura total da página */
