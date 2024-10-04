@@ -100,7 +100,7 @@ text-shadow: 2px 2px 4px #000000;
 }
 /* Adiciona efeito hover ao botão de pesquisa */
 section button:hover {
-  background-color: #009900;  /* Muda a cor de fundo ao passar o mouse */
+  background-color: #009900f4;  /* Muda a cor de fundo ao passar o mouse */
 }
 
 /* Estiliza a caixa de resultados da pesquisa */
